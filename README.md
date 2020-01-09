@@ -3,19 +3,18 @@ This is a compilation of popular and useful mods for use of Civclassics and othe
 Partially sourced from awoo's [1.12.2 modding guide](https://gist.github.com/iykHvfIvfR/394bd4cc1423c1a8b43ec0dba57bc981).
 
 ## Download Instructions
-
 1. Get MultiMC [here](https://multimc.org/).
 2. Press the 'Add Instance' button in the top left
 3. Select 'Import from zip' 
 
-## Contained Mods
+### [CCmap](https://github.com/ccmap/ccmap.github.io) data (Voxelmap only)
+1. Download newest civclassic_world_voxelmap data from [here](https://www.mediafire.com/folder/fyop6l75ojq3y/CCMap)
+2. Extract .zips into `.minecraft\mods\VoxelMods\voxelMap\cache\mc.civclassic.com\overworld (dimension 0)\`
 
+## Contained Mods
 ### [VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap/files/2777826)
 * Maps explored areas (includes preloaded partial world map)
 * Allows creation of waypoints to easily find locations
-
-### [CCmap](https://github.com/ccmap/ccmap.github.io) preloaded data
-* Downloaded from [here](https://www.mediafire.com/folder/fyop6l75ojq3y/CCMap)
 
 ### [5zig](https://github.com/5zig/The-5zig-Mod/releases/tag/3.12.5)
 * Lots of customisable UI additions (armour, coordinates, potion effects, etc)
@@ -84,12 +83,12 @@ Partially sourced from awoo's [1.12.2 modding guide](https://gist.github.com/iyk
 
 ### [Inventory Tweaks](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks)
 * Sorts player and chest inventories
-* *Note: Using this in combat is against the Civclassic rules*
+* *Note: Using this in combat is against the Civclassics rules*
 
 ### [Ghostwriter](https://github.com/waffle-stomper/Ghostwriter/releases)
 * Allows editing books in game
 
 ### [Note Block Display](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1288520-note-block-display-with-gui)
-* Adds GUI screen for noteblock
+* Adds GUI screen for noteblock settings
 
 ## 
