@@ -1,0 +1,7 @@
+//credit to https://redd.it/8kjdwa
+$${
+wait(1);
+echo(/manaclaim);
+wait(1800);
+echo(/manaclaim);
+}$$

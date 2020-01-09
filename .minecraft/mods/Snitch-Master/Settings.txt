@@ -1,0 +1,6 @@
+manual-mode=true
+global-render=true
+chat-spam=ON
+snitch-list-table-columns=Remove,false;Controls,true;Name,true;Color,true;Qualifier,true;Snitches,true
+quiet-time-config=[1, 8, 2, 8, 3, 8, 4]:
+render-text=true

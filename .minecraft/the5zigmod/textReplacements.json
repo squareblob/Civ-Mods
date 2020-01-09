@@ -1,0 +1,10 @@
+{
+  "replacements": [
+    {
+      "message": "\u0026shrug",
+      "replacement": "¯\\_(ツ)_/¯",
+      "ignoresCommands": true,
+      "replaceInsideWords": false
+    }
+  ]
+}

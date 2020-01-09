@@ -1,0 +1,4 @@
+#These are the default settings used across all servers when the individual server has not yet had a setting set.  You can manually modify them, if you want.
+#Wed Jan 08 23:40:07 EST 2020
+TutorialShown=true
+UpdateETag="cfc83901cda06b53560d8918cc38a83f"

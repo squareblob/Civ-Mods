@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "radarOpacity": 0.5,
+  "radarColor": -8355712,
+  "radarSize": 0.4,
+  "radarDistance": 96,
+  "radarX": 0.0,
+  "radarY": 0.0,
+  "iconScale": 0.59347826,
+  "fontScale": 1.2,
+  "neutralPlayerColor": -1,
+  "allyPlayerColor": -16711936,
+  "enemyPlayerColor": -256,
+  "neutralPlayerPing": true,
+  "allyPlayerPing": true,
+  "enemyPlayerPing": true,
+  "neutralSoundEventName": "pling",
+  "allySoundEventName": "pling",
+  "enemySoundEventName": "pling",
+  "logPlayerStatus": false,
+  "disabledEntities": [],
+  "disabledGroups": [
+    "Neutral",
+    "Aggressive"
+  ],
+  "allyPlayers": [],
+  "enemyPlayers": []
+}

@@ -1,0 +1,13 @@
+{
+  "lastServers": [
+    {
+      "Name": "eu.the5zig.mod.server.Server",
+      "Value": {
+        "host": "mc.civclassic.com",
+        "port": 25565,
+        "time": 1578544800494
+      }
+    }
+  ],
+  "MAX_SERVER_COUNT": 5
+}

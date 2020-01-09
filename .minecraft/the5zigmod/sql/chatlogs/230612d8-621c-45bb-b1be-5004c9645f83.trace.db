@@ -1,0 +1,9 @@
+01-09 16:55:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "version" not found; SQL statement:
+SELECT * FROM version [42102-183]
+01-09 16:56:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "conversations_chat" not found; SQL statement:
+SELECT * FROM conversations_chat ORDER BY lastused DESC [42102-183]
+01-09 16:56:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "conversations_groupchat" not found; SQL statement:
+SELECT * FROM conversations_groupchat ORDER BY lastused DESC [42102-183]

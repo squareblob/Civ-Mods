@@ -1,0 +1,202 @@
+Aether:0x000000
+Alpine:0x8dacc4
+Alps:0xcccccc
+Alps Forest:0x7a997a
+Arctic:0xdddddd
+Autumn Woods:0xf29c11
+Bamboo Forest:0xa3e053
+Bayou:0x8baf6b
+Beach:0xfade55
+Birch Forest:0x307444
+Birch Forest Hills:0x1f5f32
+Birch Forest Hills M:0x1f5f32
+Birch Forest M:0x307444
+Bog:0xd8935f
+Boneyard:0xeeeaba
+Boreal Forest:0x9fb771
+Brushland:0xc9c17f
+Canyon:0xb49c70
+Canyon Ravine:0x8e7b59
+Chaparral:0xc0d85d
+Cherry Blossom Grove:0xf88f8f
+Cold Beach:0xfaf0c0
+Cold Taiga:0x31554a
+Cold Taiga Hills:0x243f36
+Cold Taiga M:0x31554a
+Coniferous Forest:0x528f60
+Coral Reef:0x00476d
+Corrupted Sands:0x755e4e
+Crag:0x4f7d71
+Dark Forest:0x003311
+Dark Forest Center:0x002200
+Dead Forest:0xbca165
+Dead Swamp:0x8baf48
+Deciduous Forest:0xc1b749
+Deep Mushroom Forest:0x663322
+Deep Ocean:0x000030
+Dense Forest:0x7dd671
+Dense Twilight Forest:0x005522
+Desert:0xfa9418
+Desert M:0xfa9418
+DesertHills:0xd25f12
+Dry River:0x000000
+Elysian Fields:0xc6ff54
+Elysian Fields M:0xc6ff54
+Elysian Forest:0x74bf26
+Elysian Forest M:0x74bf26
+Enchanted Forest:0x115566
+Eucalyptus Forest:0x84d168
+Extreme Hills:0x606060
+Extreme Hills Edge:0x72789a
+Extreme Hills M:0x606060
+Extreme Hills+:0x507050
+Extreme Hills+ M:0x507050
+Extreme Jungle:0x2c4205
+Fen:0xbac481
+Fire Swamp:0x42231a
+Firefly Forest:0x006633
+Flower Field:0x3db53d
+Flower Forest:0x6a7425
+Forest:0x056621
+ForestHills:0x22551c
+Forested Hills:0x000000
+Forested Island:0x62bf6c
+Frost Forest:0xabd6bc
+FrozenOcean:0x9090a0
+FrozenRiver:0xa0a0ff
+Fungal Forest:0x4e8833
+Fungal Forest M:0x4e8833
+Fungi Forest:0xf0f970
+Garden:0x74d374
+Glacier:0xb0bbd9
+Grassland:0x7fdb7d
+Gravel Beach:0xfade55
+Green Hills:0x68c474
+Green Swamplands:0x68c474
+Grove:0x517f51
+Heathland:0xcec577
+Hell:0xff0000
+Highland:0x7cad66
+Highlands Center:0x334422
+Ice Mountains:0xa0a0a0
+Ice Plains:0xffffff
+Ice Plains Spikes:0xd2ffff
+Ice Wasteland:0x7da0b5
+Jade Cliffs:0x8acc6a
+Jungle:0x537b09
+Jungle M:0x537b09
+JungleEdge:0x628b17
+JungleEdge M:0x628b17
+JungleHills:0x2c4205
+Kelp Forest:0x006b4c
+Land of Lakes:0x66a06e
+Land of Lakes Marsh:0x66a06e
+Lavender Fields:0xa864cc
+Lush Desert:0x8aa92d
+Lush Redwoods:0x4ac758
+Lush River:0x000000
+Lush Swamp:0x57ae34
+Mangrove:0x6ea559
+Maple Woods:0x6aa369
+Marsh:0x66a06e
+Meadow:0x63b26d
+Meadow Forest:0x54965b
+Mega Spruce Taiga:0x596651
+Mega Taiga:0x596651
+Mega Taiga Hills:0x454f3e
+Mesa:0xd94515
+Mesa (Bryce):0xd94515
+Mesa Plateau:0xca8c65
+Mesa Plateau F:0xb09765
+Mesa Plateau F M:0xb09765
+Mesa Plateau M:0xca8c65
+Mini Jungle:0x41d923
+Moor:0x619365
+Mountain:0x80a355
+Mountain Taiga:0x0b6659
+Mountainous Desert:0xfa9418
+Mushroom Forest:0x226622
+MushroomIsland:0xff00ff
+MushroomIslandShore:0xa000ff
+Mystic Grove:0x69cfdb
+Oak Savanna:0x446622
+Oasis:0x75ae1b
+Ocean:0x000070
+Ominous Woods:0x3f4151
+Orchard:0xd5ff6d
+Origin Valley:0x9dcc6d
+Outback:0xa57644
+Phantasmagoric Inferno:0xd96616
+Pine Forest:0x469c7e
+Plains:0x8db360
+Polar Chasm:0xa93c3e
+Prairie:0xc8e580
+Quagmire:0x503a2b
+Rainforest:0x14e26f
+Red Rock Mountains:0xc4722f
+Redwood Forest:0x6daa3c
+River:0x0000ff
+Rocky Steppe:0x867f66
+Roofed Forest:0x40511a
+Roofed Forest M:0x40511a
+Sacred Springs:0x00995b
+Savanna:0xbdb25f
+Savanna M:0xbdb25f
+Savanna Plateau:0xa79d64
+Savanna Plateau M:0xa79d64
+Scrubland:0xaea42a
+Seasonal Forest:0xbec44c
+Seasonal Forest Clearing:0xcfd361
+Shield:0x647f38
+Shrubland:0x7ca35e
+Silkglades:0xccc9ad
+Sky:0x8080ff
+Sludgepit:0x746429
+Snow Forest:0x5ba68d
+Snowy Coniferous Forest:0xffffff
+Snowy Forest:0xccffff
+Snowy Gravel Beach:0xfade55
+Snowy Rainforest:0x338277
+Spectral Garden:0xeeeaba
+Spruce Woods:0x619961
+Steppe:0xccab5f
+Stone Beach:0xa2a284
+Submerged Swamp:0x314d31
+Submerged Swamp M:0x314d31
+Subterranean Savannah:0xb6b957
+Subterranean Savannah M:0xb6b957
+Sunflower Plains:0x8db360
+Swampland:0x07f9b2
+Swampland M:0x07f9b2
+Taiga:0x0b6659
+Taiga M:0x0b6659
+TaigaHills:0x163933
+Temperate Rainforest:0xbbdd63
+The End:0x8080ff
+Thicket:0x6e9941
+Thornlands:0x223322
+Tropical Rainforest:0x88e140
+Tropical Shrubland:0xa68710
+Tropics:0x21be02
+Tundra:0xad8456
+Twilight Clearing:0x349b34
+Twilight Forest:0x005500
+Twilight Glacier:0x7777bb
+Twilight Highlands:0x556644
+Twilight Lake:0x0000ff
+Twilight Stream:0x3253b7
+Twilight Swamp:0x334422
+Ulterior Outback:0xc1b668
+Ulterior Outback M:0xc1b668
+Undergarden:0xeeeaba
+Undergound Jungle:0x53ca37
+Undergound Jungle M:0x53ca37
+Visceral Heap:0xa93c3e
+Volcanic Desert:0xa6bb4e
+Volcanic Desert M:0xa6bb4e
+Volcano:0x656565
+Wasteland:0x5a5440
+Wetland:0x4f9657
+Woodland:0x84a92d
+Woodlands:0x85b53e
+Xeric Shrubland:0xe2cda5

@@ -1,0 +1,8 @@
+{
+  "defaultGamma": 15.0,
+  "hangTimeOn": 1500,
+  "hangTimeOff": 750,
+  "autoHide": false,
+  "autoEnable": false,
+  "checkUpdate": true
+}
