@@ -10,7 +10,7 @@ Mods have been set up with basic configs to minimise feature and keybind overlap
 
 ### [CCmap](https://github.com/ccmap/ccmap.github.io) data (Voxelmap only)
 1. Download newest civclassic_world_voxelmap data from [here](https://www.mediafire.com/folder/fyop6l75ojq3y/CCMap)
-2. Extract .zips into `.minecraft\mods\VoxelMods\voxelMap\cache\mc.civclassic.com\overworld (dimension 0)\`
+2. Extract .zips into `.minecraft\mods\VoxelMods\voxelMap\cache\mc.civclassic.com~colon~25565\overworld (dimension 0)\`.
 
 ## Contained Mods
 ### [VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap/files/2777826)
