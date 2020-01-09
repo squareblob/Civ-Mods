@@ -1,7 +1,19 @@
-# Civ-Mods
-This is a compilation of popular and useful mods for use of Civclassics and other Civ-genre servers partially sourced from awoo's [1.12.2 modding guide](https://gist.github.com/iykHvfIvfR/394bd4cc1423c1a8b43ec0dba57bc981).
+|⚠️ Currently a WIP ⚠️|
+| --- |
 
-Mods have been set up with basic configs to minimise feature and keybind overlap.
+# Civ-Mods
+A compilation of useful client-side mods for Civclassics and other Civ-genre servers. 
+
+### Full
+> Contains over 20 mods
+### Lite
+> Contains only the essential mods
+### Performance
+> Heavily optimized for performance
+### PvP
+> PvPing
+### Bot
+> Botting
 
 ## Download Instructions
 1. Get MultiMC [here](https://multimc.org/).
@@ -72,7 +84,8 @@ Mods have been set up with basic configs to minimise feature and keybind overlap
 * `Shift G` toggles sneak and `Ctrl G` toggles sprint 
 
 ### [Tapemouse](https://www.curseforge.com/minecraft/mc-mods/tapemouse)
-* Allows 
+* Allows holding keybinds
+* `/tapemouse <off|keybinding> [delay]`
 
 ### [ChatGroupInfo](https://github.com/Gjum/ChatGroupInfo)
 * Displays current NameLayer chat group in the chat window
@@ -92,4 +105,11 @@ Mods have been set up with basic configs to minimise feature and keybind overlap
 ### [Note Block Display](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1288520-note-block-display-with-gui)
 * Adds GUI screen for noteblock settings
 
-## 
+---
+
+## [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
+* Search for keybinds and see conflicts
+
+## Sources
+
+partially sourced from awoo's [1.12.2 modding guide](https://gist.github.com/iykHvfIvfR/394bd4cc1423c1a8b43ec0dba57bc981)
