@@ -1,6 +1,7 @@
 # Civ-Mods
-This is a compilation of popular and useful mods for use of Civclassics and other Civ-genre servers.
-Partially sourced from awoo's [1.12.2 modding guide](https://gist.github.com/iykHvfIvfR/394bd4cc1423c1a8b43ec0dba57bc981).
+This is a compilation of popular and useful mods for use of Civclassics and other Civ-genre servers partially sourced from awoo's [1.12.2 modding guide](https://gist.github.com/iykHvfIvfR/394bd4cc1423c1a8b43ec0dba57bc981).
+
+Mods have been set up with basic configs to minimise feature and keybind overlap.
 
 ## Download Instructions
 1. Get MultiMC [here](https://multimc.org/).
