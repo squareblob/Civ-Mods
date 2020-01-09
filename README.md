@@ -4,16 +4,13 @@
 # Civ-Mods
 A compilation of useful client-side mods for Civclassics and other Civ-genre servers. 
 
-### Full
-> Contains over 20 mods
-### Lite
-> Contains only the essential mods
-### Performance
-> Heavily optimized for performance
-### PvP
-> PvPing
-### Bot
-> Botting
+Modpack type | 1.12.2 | 1.14.4
+--- | --- | --- |
+Full | [🡕] | [🡕] |
+Lite | [🡕] | [🡕] |
+Peformance | [🡕] | [🡕] |
+PvP | [🡕] | [🡕] |
+Bot | [🡕] | [🡕] |
 
 ## Download Instructions
 1. Get MultiMC [here](https://multimc.org/).
