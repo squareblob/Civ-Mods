@@ -1,0 +1,329 @@
+[23:37:04] [main/INFO]: LiteLoader 1.12.2 starting up...
+[23:37:04] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[23:37:04] [main/INFO]: Java reports OS="linux"
+[23:37:04] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[23:37:04] [main/INFO]: Enumerating class path...
+[23:37:04] [main/INFO]: Class path separator=":"
+[23:37:04] [main/INFO]: Class path entries=(
+   classpathEntry=/usr/share/multimc/jars/NewLaunch.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/mojang/patchy/1.1/patchy-1.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/google/guava/guava/21.0/guava-21.0.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar
+   classpathEntry=/home/square/.local/share/multimc/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar
+)
+[23:37:04] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[23:37:04] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods]
+[23:37:04] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2]
+[23:37:04] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@3113a37]
+[23:37:04] [main/INFO]: Discovering valid mod files in folder /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods
+[23:37:04] [main/INFO]: Considering valid mod file: /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_voxelMap_1.7.1_for_1.12.2.litemod
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'mod_macros_0.15.4_for_1.12.1.litemod'
+[23:37:04] [main/INFO]: Considering valid mod file: /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_macros_0.15.4_for_1.12.1.litemod
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'InGameAccountSwitcher-Forge-1.12-7.0.3.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/InGameAccountSwitcher-Forge-1.12-7.0.3.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod'
+[23:37:04] [main/INFO]: Considering valid mod file: /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod
+[23:37:04] [main/INFO]: Inspecting jar metadata in '1.12.2mod-gammabright-3.7-mc1.12.1.litemod'
+[23:37:04] [main/INFO]: Considering valid mod file: /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2mod-gammabright-3.7-mc1.12.1.litemod
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'GridLines-1.12.2-0.2.0.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/GridLines-1.12.2-0.2.0.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'mod-litemodwdl-4.0.6.0-mc1.12.2.litemod'
+[23:37:04] [main/INFO]: Considering valid mod file: /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-litemodwdl-4.0.6.0-mc1.12.2.litemod
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'Schematica-1.12.2-1.8.0.169-universal.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/Schematica-1.12.2-1.8.0.169-universal.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'ChatGroupInfo-1.12.2-0.1.4.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/ChatGroupInfo-1.12.2-0.1.4.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'mod-noteblockdisplay-1.3.7-mc1.12.2.litemod'
+[23:37:04] [main/INFO]: Considering valid mod file: /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-noteblockdisplay-1.3.7-mc1.12.2.litemod
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'TapeMouse-1.12.2-1.1.3.17.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/TapeMouse-1.12.2-1.1.3.17.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'mod-combatradar-1.1-mc1.12.2.litemod'
+[23:37:04] [main/INFO]: Considering valid mod file: /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-combatradar-1.1-mc1.12.2.litemod
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'LunatriusCore-1.12.2-1.2.0.42-universal.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in '1.12.2-Ghostwriter-1.9.8.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2-Ghostwriter-1.9.8.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'InventoryTweaks-1.63.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/InventoryTweaks-1.63.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'The.5zig.Mod.v3.12.5.for.Minecraft.1.12.2.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/The.5zig.Mod.v3.12.5.for.Minecraft.1.12.2.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'SnitchMaster-awoo-0.2.0-2019.12.08-1.12.2.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/SnitchMaster-awoo-0.2.0-2019.12.08-1.12.2.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'BetterSprinting-1.12.2-v3.0.1.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/BetterSprinting-1.12.2-v3.0.1.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'advancedmacros-7.7.7b.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/advancedmacros-7.7.7b.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'moreoverlays-1.15.1-mc1.12.2.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/moreoverlays-1.15.1-mc1.12.2.jar
+[23:37:04] [main/INFO]: Inspecting jar metadata in 'SkyNet-1.12-1.4.0.git.jar'
+[23:37:04] [main/INFO]: Ignoring /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/SkyNet-1.12-1.4.0.git.jar
+[23:37:04] [main/INFO]: Discovering valid mod files in folder /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2
+[23:37:04] [main/INFO]: Discovering tweaks on class path...
+[23:37:04] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[23:37:04] [main/INFO]: Registering discovered mod files in folder /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods
+[23:37:04] [main/INFO]: Adding newest valid mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_voxelMap_1.7.1_for_1.12.2.litemod' at revision 1701.0000
+[23:37:04] [main/INFO]: Registering events.json for mod with id macros
+[23:37:04] [main/INFO]: Adding newest valid mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_macros_0.15.4_for_1.12.1.litemod' at revision 1540.0000
+[23:37:04] [main/INFO]: Adding newest valid mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod' at revision 11211.0000
+[23:37:04] [main/INFO]: Adding newest valid mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2mod-gammabright-3.7-mc1.12.1.litemod' at revision 64.0000
+[23:37:04] [main/INFO]: Adding newest valid mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-litemodwdl-4.0.6.0-mc1.12.2.litemod' at revision 148.0000
+[23:37:04] [main/INFO]: Adding newest valid mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-noteblockdisplay-1.3.7-mc1.12.2.litemod' at revision 6.0000
+[23:37:04] [main/INFO]: Adding newest valid mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-combatradar-1.1-mc1.12.2.litemod' at revision 147.0000
+[23:37:04] [main/INFO]: Registering discovered mod files in folder /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2
+[23:37:04] [main/INFO]: Registering mixin config mixins.oldnorth.json for mod_voxelMap_1.7.1_for_1.12.2.litemod
+[23:37:04] [main/INFO]: Registering mixin config mixins.voxelmap.json for mod_voxelMap_1.7.1_for_1.12.2.litemod
+[23:37:04] [main/INFO]: Registering mixin config mixins.macros.json for mod_macros_0.15.4_for_1.12.1.litemod
+[23:37:04] [main/INFO]: Registering mixin config mixins.LiteModWDL.json for mod-litemodwdl-4.0.6.0-mc1.12.2.litemod
+[23:37:04] [main/INFO]: Registering mixin config mixins.combatradar.json for mod-combatradar-1.1-mc1.12.2.litemod
+[23:37:04] [main/INFO]: Initialising LiteLoader Mixins
+[23:37:04] [main/INFO]: LiteLoader PREINIT complete
+[23:37:08] [main/INFO]: Parsing events for mod with id macros
+[23:37:08] [main/INFO]: macros contains Accessor definitions, injecting into classpath...
+[23:37:08] [main/INFO]: Registering events for mod with id macros
+[23:37:08] [main/INFO]: FML detected, switching to searge mappings
+[23:37:22] [Client thread/INFO]: JInput Component Registry is initialising...
+[23:37:22] [Client thread/INFO]: JInput Component Registry initialised, found 0 controller(s) 0 component(s)
+[23:37:22] [Client thread/INFO]: LiteLoader begin INIT...
+[23:37:22] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[23:37:22] [Client thread/INFO]: Injecting external mods into class path...
+[23:37:22] [Client thread/INFO]: Successfully injected mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod' into classpath
+[23:37:22] [Client thread/INFO]: Successfully injected mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2mod-gammabright-3.7-mc1.12.1.litemod' into classpath
+[23:37:22] [Client thread/INFO]: Successfully injected mod file '/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-noteblockdisplay-1.3.7-mc1.12.2.litemod' into classpath
+[23:37:22] [Client thread/INFO]: Injecting external mods into class path...
+[23:37:22] [Client thread/INFO]: Discovering mods on class path...
+[23:37:22] [Client thread/INFO]: Searching /usr/share/multimc/jars/NewLaunch.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/mojang/patchy/1.1/patchy-1.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/google/guava/guava/21.0/guava-21.0.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar...
+[23:37:22] [Client thread/INFO]: Discovering mods in valid mod files...
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_voxelMap_1.7.1_for_1.12.2.litemod...
+[23:37:22] [Client thread/INFO]: Found 1 potential matches
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_macros_0.15.4_for_1.12.1.litemod...
+[23:37:22] [Client thread/INFO]: Found 1 potential matches
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod...
+[23:37:22] [Client thread/INFO]: Found 1 potential matches
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2mod-gammabright-3.7-mc1.12.1.litemod...
+[23:37:22] [Client thread/INFO]: Found 1 potential matches
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-litemodwdl-4.0.6.0-mc1.12.2.litemod...
+[23:37:22] [Client thread/INFO]: Found 1 potential matches
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-noteblockdisplay-1.3.7-mc1.12.2.litemod...
+[23:37:22] [Client thread/INFO]: Found 1 potential matches
+[23:37:22] [Client thread/INFO]: Searching /home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-combatradar-1.1-mc1.12.2.litemod...
+[23:37:22] [Client thread/INFO]: Found 1 potential matches
+[23:37:22] [Client thread/INFO]: Discovering mods in valid mod files...
+[23:37:22] [Client thread/INFO]: Mod class discovery completed
+[23:37:22] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[23:37:22] [Client thread/INFO]: Inhibiting sound handler reload
+[23:37:22] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
+[23:37:22] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[23:37:22] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[23:37:22] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[23:37:22] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[23:37:22] [Client thread/INFO]: Discovered 7 total mod(s), injected 0 tweak(s)
+[23:37:22] [Client thread/INFO]: Loading mod from com.mamiyaotaru.voxelmap.litemod.LiteModVoxelMap
+[23:37:22] [Client thread/INFO]: Baking listener list for ModLoadObserver with 1 listeners
+[23:37:22] [Client thread/INFO]: Successfully added mod VoxelMap version 1.7.1
+[23:37:22] [Client thread/INFO]: Adding "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_voxelMap_1.7.1_for_1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Setting up "mod_voxelMap_1.7.1_for_1.12.2.litemod" as mod resource pack with identifier "VoxelMap"
+[23:37:22] [Client thread/INFO]: Successfully added "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_voxelMap_1.7.1_for_1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Loading mod from net.eq2online.macros.LiteModMacros
+[23:37:22] [Client thread/INFO]: Successfully added mod Macro / Keybind Mod version 0.15.4
+[23:37:22] [Client thread/INFO]: Adding "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_macros_0.15.4_for_1.12.1.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Setting up "mod_macros_0.15.4_for_1.12.1.litemod" as mod resource pack with identifier "Macro / Keybind Mod"
+[23:37:22] [Client thread/INFO]: Successfully added "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_macros_0.15.4_for_1.12.1.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Loading mod from com.mumfrey.worldeditcui.LiteModWorldEditCUI
+[23:37:22] [Client thread/INFO]: Successfully added mod WorldEditCUI version 1.12.1_01
+[23:37:22] [Client thread/INFO]: Adding "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Setting up "mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod" as mod resource pack with identifier "WorldEditCUI"
+[23:37:22] [Client thread/INFO]: Successfully added "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Loading mod from com.shadowhawk.gammabright.LiteModGammabright
+[23:37:22] [Client thread/INFO]: Successfully added mod Gammabright version 3.7
+[23:37:22] [Client thread/INFO]: Adding "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2mod-gammabright-3.7-mc1.12.1.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Setting up "1.12.2mod-gammabright-3.7-mc1.12.1.litemod" as mod resource pack with identifier "Gammabright"
+[23:37:22] [Client thread/INFO]: Successfully added "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/1.12.2mod-gammabright-3.7-mc1.12.1.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Loading mod from com.uyjulian.LiteModWDL.LiteModWDL
+[23:37:22] [Client thread/INFO]: Successfully added mod LiteModWDL version 4.0.6.0-1.12.2
+[23:37:22] [Client thread/INFO]: Adding "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-litemodwdl-4.0.6.0-mc1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Setting up "mod-litemodwdl-4.0.6.0-mc1.12.2.litemod" as mod resource pack with identifier "LiteModWDL"
+[23:37:22] [Client thread/INFO]: Successfully added "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-litemodwdl-4.0.6.0-mc1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Loading mod from xaero.mods.noteblockdisplay.LiteModNoteBlockDisplay
+[23:37:22] [Client thread/INFO]: Successfully added mod Note Block Display version 1.3.7
+[23:37:22] [Client thread/INFO]: Adding "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-noteblockdisplay-1.3.7-mc1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Setting up "mod-noteblockdisplay-1.3.7-mc1.12.2.litemod" as mod resource pack with identifier "Note Block Display"
+[23:37:22] [Client thread/INFO]: Successfully added "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-noteblockdisplay-1.3.7-mc1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Loading mod from com.aleksey.combatradar.LiteModCombatRadar
+[23:37:22] [Client thread/INFO]: Successfully added mod Combat Radar version 1.1.0
+[23:37:22] [Client thread/INFO]: Adding "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-combatradar-1.1-mc1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Setting up "mod-combatradar-1.1-mc1.12.2.litemod" as mod resource pack with identifier "Combat Radar"
+[23:37:22] [Client thread/INFO]: Successfully added "/home/square/.local/share/multimc/instances/Civ-Mods-1.12.2/.minecraft/mods/mod-combatradar-1.1-mc1.12.2.litemod" to active resource pack set
+[23:37:22] [Client thread/INFO]: Initialising mod VoxelMap version 1.7.1
+[23:37:22] [Client thread/INFO]: Initialising mod Macro / Keybind Mod version 0.15.4
+[23:37:22] [Client thread/INFO]: loading localisations for en_gb
+[23:37:22] [Client thread/INFO]: loading localisations for en_gb
+[23:37:22] [Client thread/INFO]: loading localisations for en_us
+[23:37:22] [Client thread/INFO]: Forge ClientCommandHandler was found, outbound commands will be processed by Forge
+[23:37:23] [Client thread/INFO]: Loading macro templates...
+[23:37:23] [Client thread/INFO]: Using config dir /liteconfig/common/macros/
+[23:37:24] [Client thread/INFO]: Script engine initialised, registered 128 script action(s)
+[23:37:24] [Client thread/INFO]: Script engine initialised, registered 68 script action(s)
+[23:37:24] [Client thread/INFO]: Loading chat filter templates...
+[23:37:24] [Client thread/INFO]: Initialising mod WorldEditCUI version 1.12.1_01
+[23:37:24] [Client thread/INFO]: Performing config upgrade for mod WorldEditCUI. Upgrading Unknown to 1.12.2...
+[23:37:24] [Client thread/INFO]: Config upgrade succeeded for mod WorldEditCUI
+[23:37:24] [Client thread/INFO]: Initialising mod Gammabright version 3.7
+[23:37:24] [Client thread/INFO]: Initialising mod LiteModWDL version 4.0.6.0-1.12.2
+[23:37:24] [Client thread/INFO]: Initialising mod Note Block Display version 1.3.7
+[23:37:24] [Client thread/INFO]: Performing config upgrade for mod Note Block Display. Upgrading Unknown to 1.12.2...
+[23:37:24] [Client thread/INFO]: Config upgrade succeeded for mod Note Block Display
+[23:37:24] [Client thread/INFO]: Initialising mod Combat Radar version 1.1.0
+[23:37:24] [Client thread/INFO]: [CombatRadar]: JourneyMap is NOT found
+[23:37:24] [Client thread/INFO]: [CombatRadar]: VoxelMap is found
+[23:37:24] [Client thread/INFO]: [CombatRadar]: mod enabled
+[23:37:24] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[23:37:24] [Client thread/INFO]: Listener Macro / Keybind Mod is registering MessageBus channel macros:version
+[23:37:24] [Client thread/INFO]: Listener Macro / Keybind Mod is registering MessageBus channel macros:variable
+[23:37:24] [Client thread/INFO]: Listener WorldEditCUI is registering MessageBus channel wecui:wecui
+[23:37:30] [Client thread/INFO]: loading localisations for en_gb
+[23:37:30] [Client thread/INFO]: loading localisations for en_us
+[23:37:30] [Client thread/INFO]: Calling late init for mod VoxelMap
+[23:37:31] [Client thread/INFO]: Calling late init for mod Macro / Keybind Mod
+[23:37:31] [Client thread/INFO]: Calling late init for mod WorldEditCUI
+[23:37:31] [Client thread/INFO]: Calling late init for mod Note Block Display
+[23:37:31] [Client thread/INFO]: Baking listener list for ViewportListener with 1 listeners
+[23:37:31] [Client thread/INFO]: Sound handler reload inhibit removed
+[23:37:31] [Client thread/INFO]: Reloading sound handler
+[23:37:32] [Client thread/INFO]: Baking listener list for GameLoopListener with 1 listeners
+[23:37:32] [Client thread/INFO]: Baking listener list for RenderListener with 2 listeners
+[23:37:32] [Client thread/INFO]: Baking listener list for TickObserver with 3 listeners
+[23:37:32] [Client thread/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[23:37:32] [Client thread/INFO]: Baking listener list for Tickable with 6 listeners
+[23:37:32] [Client thread/INFO]: JInput Component Registry is initialising...
+[23:37:32] [Client thread/INFO]: JInput Component Registry initialised, found 0 controller(s) 0 component(s)
+[23:37:32] [Client thread/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[23:38:07] [Netty Client IO #0/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[23:38:07] [Netty Client IO #0/INFO]: Successfully generated event handler proxy class with 124 handlers(s) and 124 total invocations
+[23:38:11] [Client thread/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
+[23:38:14] [Server thread/INFO]: Baking listener list for IEventState with 0 listeners
+[23:38:14] [Server thread/INFO]: Baking listener list for ServerTickable with 0 listeners
+[23:38:15] [Netty Local Client IO #0/INFO]: Baking listener list for PostLoginListener with 0 listeners
+[23:38:15] [Server thread/INFO]: Baking listener list for ServerPlayerListener with 0 listeners
+[23:38:15] [Server thread/INFO]: Baking listener list for IEventState with 1 listeners
+[23:38:15] [Client thread/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
+[23:38:16] [Client thread/INFO]: Baking listener list for JoinGameListener with 3 listeners
+[23:38:16] [Client thread/INFO]: Baking listener list for PreRenderListener with 0 listeners
+[23:38:16] [Client thread/INFO]: Baking listener list for PostRenderListener with 3 listeners
+[23:38:16] [Client thread/INFO]: Baking listener list for HUDRenderListener with 1 listeners
+[23:38:17] [Client thread/INFO]: Baking listener list for WorldObserver with 2 listeners
+[23:38:18] [Server thread/INFO]: Baking listener list for PlayerMoveListener with 0 listeners
+[23:38:19] [Server thread/INFO]: Baking listener list for ServerChatFilter with 0 listeners
+[23:38:19] [Client thread/INFO]: Baking listener list for ChatListener with 1 listeners
+[23:38:19] [Client thread/INFO]: Baking listener list for EntityRenderListener with 0 listeners
+[23:38:25] [Client thread/ERROR]: [AccessorTransformer] Method getItemsList for net.eq2online.macros.core.overlays.IContainerCreative could not locate target member, the method will be ABSTRACT!
+[23:38:30] [Client thread/INFO]: Baking listener list for PlayerClickListener with 0 listeners
+[23:38:30] [Server thread/INFO]: Baking listener list for PlayerInteractionListener with 0 listeners
+[23:38:30] [Client thread/INFO]: Baking listener list for PacketHandler with 1 listeners
+[23:39:13] [Thread-29/INFO]: Baking listener list for OutboundChatFilter with 2 listeners
+[23:39:56] [Client thread/INFO]: Terminating 1 active macro(s)
+[23:40:00] [Client thread/INFO]: onConnectToServer: mc.civclassic.com:25,565
+[23:40:52] [Client thread/INFO]: Terminating 1 active macro(s)
+[23:40:53] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[23:40:53] [Client thread/INFO]: Baking listener list for ShutdownObserver with 3 listeners
