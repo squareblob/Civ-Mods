@@ -9,7 +9,7 @@ from pathlib import Path
 with open('mods.json') as f:
     mods = json.load(f)
 
-input = "install voxelmap bettersprinting worldedit"
+input = "install minihud voxelmap bettersprinting worldedit noteblockdisplays mousewheelie optifine"
 setversion = "1.14"
 setmodloader = "fabric"
 
@@ -38,7 +38,7 @@ elif command == "install":
     while o < len(packages):
         package = packages[o]
         o += 1
-        group = "default"
+        group = "civdefault"
         if package.startswith("--"):
             if package == "--config-only":
                 configonly = True
@@ -103,17 +103,15 @@ elif command == "install":
                                         Path(location).mkdir(parents=True, exist_ok=True)
                                         copyfile(str(file), minecraft_location + global_config[file])
                                         print("config : downloaded " + str(file))
-
                             except Exception as e:
-                                print(e)
                                 print("failed to download \'" + package + "\': file url did not resolve")
                     if not(tests["modloader_found"] and tests["version_found"]):
                         error_msg = ""
                         error_msg += "failed to download \'" + package + "\'"
                         if not tests["version_found"]:
-                            error_msg += "(game version set [" + str(setversion) + "] not found)"
+                            error_msg += "(No version (game version=[" + str(setversion) + "]) found)"
                         if not tests["modloader_found"]:
-                            error_msg += " (modloader version set [" + str(setmodloader) + "] not found)"
+                            error_msg += " (No version (modloader version=[" + str(setmodloader) + "]) found)"
                         print(error_msg)
             if not package_found:
                 print("package \'" +package + "\' could not be found")
