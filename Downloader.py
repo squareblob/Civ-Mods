@@ -2,14 +2,15 @@ import re
 import urllib.request
 import pprint
 import json
-from shutil import copyfile
 import requests
 from pathlib import Path
+import os.path
+from os import path as ospath
 
 with open('mods.json') as f:
     mods = json.load(f)
 
-input = "install minihud voxelmap bettersprinting worldedit noteblockdisplays mousewheelie optifine"
+input = "install --config-only --overwrite minihud voxelmap bettersprinting worldedit noteblockdisplays mousewheelie optifine"
 setversion = "1.14"
 setmodloader = "fabric"
 
@@ -20,13 +21,15 @@ required = []
 command = input.split(" ")[0]
 configonly = False
 jaronly = False
+overwrite = False
+
+config_choices = []
 
 if command == "list":
     output = ""
     for i in range(0, len(mods['mods'])):
         output += str(mods['mods'][i]['name']) + " "
     print(output)
-
 
 elif command == "install":
     if minecraft_location == "":
@@ -38,15 +41,21 @@ elif command == "install":
     while o < len(packages):
         package = packages[o]
         o += 1
-        group = "civdefault"
         if package.startswith("--"):
             if package == "--config-only":
                 configonly = True
             elif package == "--jar-only":
                 jaronly = True
+            elif package == "--overwrite":
+                overwrite = True
         elif package.startswith("-"):
-            group = package.replace("-", "")
+            config_choices.append(package.replace("-", "")) # = package.replace("-", "")
         else:
+            config_choices_for_package = ["civdefault"]
+            if config_choices:
+                config_choices_for_package = config_choices.copy()
+            config_choices = []
+
             package_found = False
             for i in range(0, len(mods['mods'])):
                 if package.casefold() == mods['mods'][i]['name'].casefold():
@@ -77,10 +86,12 @@ elif command == "install":
 
                                     Path(location).mkdir(parents=True, exist_ok=True)
 
-                                    with open(location + "/" + str(jar_url.rsplit('/', 1)[-1]), 'wb') as f:
-                                        f.write(jar_request.read())
-                                    print("downloaded " + str(jar_url.rsplit('/', 1)[-1]))
-                                    downloaded.append(package)
+                                    path_exists = ospath.exists(location + "/" + str(jar_url.rsplit('/', 1)[-1]))
+                                    if (path_exists and overwrite) or not path_exists:
+                                        with open(location + "/" + str(jar_url.rsplit('/', 1)[-1]), 'wb') as f:
+                                            f.write(jar_request.read())
+                                        print("downloaded " + str(jar_url.rsplit('/', 1)[-1]))
+                                        downloaded.append(package)
 
                                     if 'dependencies' in requirements:
                                         print("    required dependencies: " + " ".join(requirements['dependencies']))
@@ -91,19 +102,26 @@ elif command == "install":
                                                 required.append(dependency)
 
                                 if not jaronly:
-                                    for file in global_config.keys():
-                                        url = str(repo) + str(package) + "/" + str(group) + "/" + str(file)
-                                        r = requests.get(url)
+                                    for config_choice in config_choices_for_package:
+                                        for file in global_config.keys():
+                                            url = str(repo) + str(package) + "/" + str(config_choice) + "/" + str(file)
+                                            r = requests.get(url)
+                                            if r.status_code == 404:
+                                                print("failed to find " + str(file) +" config with choice \'" + str(config_choice) + "\'")
+                                            else:
+                                                inner_location = "".join(global_config[file].rsplit('/', 1)[:-1])
+                                                location = minecraft_location + inner_location
+                                                Path(location).mkdir(parents=True, exist_ok=True)
 
-                                        with open(str(file), 'w') as f:
-                                            f.write(r.text)
+                                                path_exists = ospath.exists(minecraft_location + global_config[file])
+                                                if (path_exists and overwrite) or not path_exists:
+                                                    with open(minecraft_location + global_config[file], 'w') as f:
+                                                        f.write(r.text)
 
-                                        inner_location = "".join(global_config[file].rsplit('/', 1)[:-1])
-                                        location = minecraft_location + inner_location
-                                        Path(location).mkdir(parents=True, exist_ok=True)
-                                        copyfile(str(file), minecraft_location + global_config[file])
-                                        print("config : downloaded " + str(file))
+                                                    #copyfile(str(file), minecraft_location + global_config[file])
+                                                    print("config : downloaded " + str(file))
                             except Exception as e:
+                                print(e)
                                 print("failed to download \'" + package + "\': file url did not resolve")
                     if not(tests["modloader_found"] and tests["version_found"]):
                         error_msg = ""
@@ -114,7 +132,7 @@ elif command == "install":
                             error_msg += " (No version (modloader version=[" + str(setmodloader) + "]) found)"
                         print(error_msg)
             if not package_found:
-                print("package \'" +package + "\' could not be found")
+                print("package \'" + package + "\' could not be found")
     for p in required:
         if p not in downloaded:
-            print("error : dependency "+ p + " could not be found")
+            print("error : dependency " + p + " could not be found")
