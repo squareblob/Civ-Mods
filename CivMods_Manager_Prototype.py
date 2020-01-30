@@ -10,6 +10,7 @@ from os import path as ospath
 with open('mods.json') as f:
     mods = json.load(f)
 
+minecraft_location = "/home/square/.local/share/multimc/instances/Testing CivMods 1.14/.minecraft/"
 input = "install --config-only --overwrite minihud voxelmap bettersprinting worldedit noteblockdisplays mousewheelie optifine"
 setversion = "1.14"
 setmodloader = "fabric"
