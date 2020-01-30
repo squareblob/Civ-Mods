@@ -9,22 +9,24 @@ from pathlib import Path
 with open('mods.json') as f:
     mods = json.load(f)
 
-minecraft_location = "" # EXAMPLE/.minecraft/
-
-input = "install minihud -cool_and_not_default voxelmap bettersprinting worldedit"
-repo = "https://raw.githubusercontent.com/squareblob/Civ-Mods/1.14/configs/"
-testing = False
+input = "install voxelmap bettersprinting worldedit"
 setversion = "1.14"
-setmodloader = "forge"
+setmodloader = "fabric"
+
+repo = "https://raw.githubusercontent.com/squareblob/Civ-Mods/1.14/configs/"
+
 downloaded = []
 required = []
 command = input.split(" ")[0]
+configonly = False
+jaronly = False
 
 if command == "list":
     output = ""
     for i in range(0, len(mods['mods'])):
         output += str(mods['mods'][i]['name']) + " "
     print(output)
+
 
 elif command == "install":
     if minecraft_location == "":
@@ -37,7 +39,12 @@ elif command == "install":
         package = packages[o]
         o += 1
         group = "default"
-        if package.startswith("-"):
+        if package.startswith("--"):
+            if package == "--config-only":
+                configonly = True
+            elif package == "--jar-only":
+                jaronly = True
+        elif package.startswith("-"):
             group = package.replace("-", "")
         else:
             package_found = False
@@ -60,35 +67,20 @@ elif command == "install":
 
                         if check_version and check_modloader:
                             try:
-                                jar_request = urllib.request.urlopen(jar_url)
-                                location = minecraft_location + "/mods"
+                                if not configonly:
+                                    jar_request = urllib.request.urlopen(jar_url)
+                                    location = minecraft_location + "/mods"
 
-                                if 'type' in mods['mods'][i].keys():
-                                    if mods['mods'][i]['type'] == "resourcepack":
-                                        location = minecraft_location + "/resourcepacks"
+                                    if 'type' in mods['mods'][i].keys():
+                                        if mods['mods'][i]['type'] == "resourcepack":
+                                            location = minecraft_location + "/resourcepacks"
 
-                                Path(location).mkdir(parents=True, exist_ok=True)
+                                    Path(location).mkdir(parents=True, exist_ok=True)
 
-                                if not testing:
                                     with open(location + "/" + str(jar_url.rsplit('/', 1)[-1]), 'wb') as f:
                                         f.write(jar_request.read())
                                     print("downloaded " + str(jar_url.rsplit('/', 1)[-1]))
                                     downloaded.append(package)
-
-                                for file in global_config.keys():
-                                    url = str(repo) + str(package) + "/" + str(group) + "/" + str(file)
-                                    r = requests.get(url)
-
-                                    with open(str(file), 'w') as f:
-                                        f.write(r.text)
-
-                                    inner_location = "".join(global_config[file].rsplit('/', 1)[:-1])
-                                    location = minecraft_location + inner_location
-
-                                    Path(location).mkdir(parents=True, exist_ok=True)
-
-                                    copyfile(str(file), minecraft_location + global_config[file])
-                                    print("config : downloaded " + str(file))
 
                                     if 'dependencies' in requirements:
                                         print("    required dependencies: " + " ".join(requirements['dependencies']))
@@ -98,7 +90,21 @@ elif command == "install":
                                             if dependency not in required:
                                                 required.append(dependency)
 
-                            except FileNotFoundError as e:#Exception as e:
+                                if not jaronly:
+                                    for file in global_config.keys():
+                                        url = str(repo) + str(package) + "/" + str(group) + "/" + str(file)
+                                        r = requests.get(url)
+
+                                        with open(str(file), 'w') as f:
+                                            f.write(r.text)
+
+                                        inner_location = "".join(global_config[file].rsplit('/', 1)[:-1])
+                                        location = minecraft_location + inner_location
+                                        Path(location).mkdir(parents=True, exist_ok=True)
+                                        copyfile(str(file), minecraft_location + global_config[file])
+                                        print("config : downloaded " + str(file))
+
+                            except Exception as e:
                                 print(e)
                                 print("failed to download \'" + package + "\': file url did not resolve")
                     if not(tests["modloader_found"] and tests["version_found"]):
