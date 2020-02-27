@@ -22,5 +22,5 @@ A very awful prototype for managing civ related mods and configs. very WIP
 3. Paste in relevent config files
 4. Edit [mods.json](https://github.com/squareblob/Civ-Mods/blob/1.14/mods.json) to include `config`
 
-
+Alternatively [create an issue](https://github.com/squareblob/Civ-Mods/issues) with attached files. 
 
