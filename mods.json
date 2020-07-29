@@ -6,29 +6,17 @@
 			"voxelmap.properties": "mods/mamiyaotaru/voxelmap.properties"
 		},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2745/30/fabricmod_VoxelMap-1.9.13_for_1.14.4.jar",
+			"jar_url": "https://media.forgecdn.net/files/3017/436/fabricmod_VoxelMap-1.10.7_for_1.16.1.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "fabric"
 			}
 		}, {
-			"jar_url": "https://media.forgecdn.net/files/2765/32/forgemod_VoxelMap-1.9.13b_for_1.14.4.jar",
+			"jar_url": "https://media.forgecdn.net/files/3017/431/forgemod_VoxelMap-1.10.7_for_1.16.1.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
-				"modloader": "forge"
-			}
-		}]
-	}, {
-		"name": "advancedmacros",
-		"description": "",
-		"config": {},
-		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2825/654/advancedmacros-9.0.3+for+Minecraft+1.14.4.jar",
-			"description": "",
-			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "forge"
 			}
 		}]
@@ -37,11 +25,12 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2846/571/litematica-fabric-1.14.4-0.0.0-dev.20191222.014040.jar",
+			"jar_url": "https://media.forgecdn.net/files/3002/65/litematica-fabric-1.16.1-0.0.0-dev.20200711.162756.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
-				"modloader": "fabric"
+				"minecraft": "1.16.1",
+				"modloader": "fabric",
+				"dependencies": ["malilib"]
 			}
 		}]
 	}, {
@@ -49,11 +38,18 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "chocolateminecraft.com/mods/BetterPvP_20.1.0_Forge_1.14.4.jar",
+			"jar_url": "https://chocolateminecraft.com/mods2/bpvp/BetterPvP_20.18.0.1_Forge_1.16.1.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "forge"
+			}
+		}, {
+			"jar_url": "https://chocolateminecraft.com/mods2/bpvp/BetterPvP_20.18.0.1_Fabric_1.16.1.jar",
+			"description": "",
+			"require": {
+				"minecraft": "1.16.1",
+				"modloader": "fabric"
 			}
 		}]
 	}, {
@@ -61,18 +57,18 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-				"jar_url": "https://optifine.net/downloadx?f=OptiFine_1.14.4_HD_U_F5.jar&x=efb127bd38e13964ee54eb51e2c226b4",
+				"jar_url": "https://optifine.net/downloadx?f=preview_OptiFine_1.16.1_HD_U_G2_pre11.jar&x=df9c0c59d8ca2781c7860c22c9edbafa",
 				"description": "",
 				"require": {
-					"minecraft": "1.14.4",
+					"minecraft": "1.16.1",
 					"modloader": "forge"
 				}
 			},
 			{
-				"jar_url": "https://optifine.net/downloadx?f=OptiFine_1.14.4_HD_U_F5.jar&x=efb127bd38e13964ee54eb51e2c226b4",
+				"jar_url": "hhttps://optifine.net/downloadx?f=preview_OptiFine_1.16.1_HD_U_G2_pre11.jar&x=df9c0c59d8ca2781c7860c22c9edbafa",
 				"description": "",
 				"require": {
-					"minecraft": "1.14.4",
+					"minecraft": "1.16.1",
 					"modloader": "fabric",
 					"dependencies": ["optifabric"]
 				}
@@ -83,10 +79,10 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2843/851/optifabric-0.7.1.jar",
+			"jar_url": "https://media.forgecdn.net/files/2995/800/optifabric-1.1.0-beta2.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "fabric"
 			}
 		}]
@@ -95,10 +91,17 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2870/242/grid-1.15-fabric0.4.23-1.5.1.jar",
+			"jar_url": "https://media.forgecdn.net/files/2997/143/grid-1.16.1-forge32.0.38-1.6.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
+				"modloader": "forge"
+			}
+		}, {
+			"jar_url": "https://media.forgecdn.net/files/2997/63/grid-1.16-fabric0.13.1-1.6.jar",
+			"description": "",
+			"require": {
+				"minecraft": "1.16.1",
 				"modloader": "fabric"
 			}
 		}]
@@ -107,24 +110,11 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2864/775/mousewheelie-1.4.0%2B1.14.4.jar",
+			"jar_url": "https://media.forgecdn.net/files/2996/961/mousewheelie-1.5.0+mc1.16.1.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "fabric"
-			}
-		}]
-	}, {
-		"name": "noteblockdisplays",
-		"description": "",
-		"type": "resourcepack",
-		"config": {},
-		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2847/17/3D-Noteblock-Displays-1.15-V2.2.zip",
-			"description": "",
-			"require": {
-				"minecraft": "1.14.4",
-				"modloader": ""
 			}
 		}]
 	}, {
@@ -134,12 +124,12 @@
 			"minihud.json": "config/minihud.json"
 		},
 		"versions": [{
-				"jar_url": "https://media.forgecdn.net/files/2803/284/minihud-fabric-1.14.4-0.19.0-dev.20191007.003640.jar",
+				"jar_url": "https://media.forgecdn.net/files/2993/429/minihud-fabric-1.16.1-0.19.0-dev.20200701.005153.jar",
 				"description": "",
 				"require": {
-					"minecraft": "1.14.4",
+					"minecraft": "1.16.1",
 					"modloader": "fabric",
-					"dependencies": ["malalib"]
+					"dependencies": ["malilib"]
 				}
 			},
 			{
@@ -148,28 +138,20 @@
 				"require": {
 					"minecraft": "1.14.4",
 					"modloader": "forge",
-					"dependencies": ["malalib"]
+					"dependencies": ["malilib"]
 				}
 			}
 		]
 	}, {
-		"name": "malalib",
+		"name": "malilib",
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2744/842/malilib-fabric-1.14.4-0.10.0-dev.20.jar",
+			"jar_url": "https://media.forgecdn.net/files/2993/139/malilib-fabric-1.16.1-0.10.0-dev.21+arne.1.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "fabric"
-			}
-		},
-		{
-			"jar_url": "https://media.forgecdn.net/files/2840/568/malilib-forge-1.14.4-0.10.0-dev.19%2Balpha.2.jar",
-			"description": "",
-			"require": {
-				"minecraft": "1.14.4",
-				"modloader": "forge"
 			}
 		}]
 	}, {
@@ -177,22 +159,10 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2846/899/BetterSprinting-1.15.1-v3.1.0.jar",
+			"jar_url": "https://media.forgecdn.net/files/2998/634/BetterSprinting-1.16.1-v3.2.0.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
-				"modloader": "forge"
-			}
-		}]
-	}, {
-		"name": "ghostwriter",
-		"description": "",
-		"config": {},
-		"versions": [{
-			"jar_url": "https://github.com/waffle-stomper/Ghostwriter/releases/download/1.14.4-2.0.4/1.14.4-Ghostwriter-2.0.4.jar",
-			"description": "",
-			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "forge"
 			}
 		}]
@@ -201,18 +171,18 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2760/377/worldedit-forge-mc1.14.4-7.0.1.jar",
+			"jar_url": "https://media.forgecdn.net/files/2997/552/worldedit-forge-mc1.16.1-7.2.0-beta-02.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "forge"
 			}
 		},
 		{
-			"jar_url": "https://media.forgecdn.net/files/2760/378/worldedit-fabric-mc1.14.4-7.0.1.jar",
+			"jar_url": "https://media.forgecdn.net/files/2997/551/worldedit-fabric-mc1.16.1-7.2.0-beta-02.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "fabric",
 				"dependencies": ["fabricapi"]
 			}
@@ -222,14 +192,13 @@
 		"description": "",
 		"config": {},
 		"versions": [{
-			"jar_url": "https://media.forgecdn.net/files/2840/657/fabric-api-0.4.2%2Bbuild.246-1.14.jar",
+			"jar_url": "https://media.forgecdn.net/files/3013/647/fabric-api-0.16.0+build.384-1.16.1.jar",
 			"description": "",
 			"require": {
-				"minecraft": "1.14.4",
+				"minecraft": "1.16.1",
 				"modloader": "fabric"
 			}
 		}]
 	}
-
 	]
 }
