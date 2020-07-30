@@ -199,6 +199,49 @@
 				"modloader": "fabric"
 			}
 		}]
+	}, {
+		"name": "sodium",
+		"description": "similar to Optifine in nature",
+		"config": {},
+		"versions": [{
+			"jar_url": "https://media.forgecdn.net/files/3003/93/sodium-fabric-mc1.16.1-0.1.0.jar",
+			"description": "",
+			"require":{
+				"minecraft": "1.16.1",
+				"modloader": "fabric"
+			}
+		}]
+	}, {
+		"name": "phosphor",
+		"description": "Optimizes client-side lighting engine",
+		"config": {},
+		"versions": [{
+			"jar_url": "https://media.forgecdn.net/files/2987/621/phosphor-fabric-mc1.16.1-0.6.0+build.7.jar",
+			"description": "",
+			"require": {
+				"minecraft": "1.16.1",
+				"modloader": "fabric",
+			}
+		}]
+	}, {
+		"name": "xaeros-minimap",
+		"description": "Minimap, safe edition",
+		"config": {},
+		"versions": [{
+			"jar_url": "https://media.forgecdn.net/files/3017/857/Xaeros_Minimap_FP20.18.0.1_Forge_1.16.1.jar",
+			"description": "",
+			"require": {
+				"minecraft": "1.16.1",
+				"modloader": "forge"
+			}
+		}, {
+			"jar_url": "https://media.forgecdn.net/files/3013/763/Xaeros_Minimap_FP20.18.0.1_Fabric_1.16.1.jar",
+			"description": "",
+			"require": {
+				"minecraft": "1.16.1",
+				"modloader": "fabric"
+			}
+		}]
 	}
 	]
 }
